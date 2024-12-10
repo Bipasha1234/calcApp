@@ -122,16 +122,18 @@ class _CalculatorViewState extends State<CalculatorView> {
           children: const [
             Text(
               'Bipasha',
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(fontSize: 15),
+              
             ),
             Spacer(), // Pushes "Calculator App" to the center
             Text(
               'Calculator App',
-              style: TextStyle(fontSize: 18),
+              style: TextStyle(fontSize: 15),
             ),
             Spacer(), // Maintains symmetry
           ],
         ),
+        backgroundColor: const Color.fromARGB(255, 160, 190, 215),
       ),
       body: Padding(
         padding: const EdgeInsets.all(8.0),
